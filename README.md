@@ -3,7 +3,6 @@
 ## Aim:
 To develop a ping pong game using C# program in unity .
 
-
 ## Algorithm:
 ### Step 1:
 Create a new scene and save. Then right click hierarchy and click ->create empty (name as Game manager).
@@ -40,7 +39,6 @@ In PaddleRight (Negative button - down and positive buttom - up) and paddleLeft(
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class GameManager : MonoBehaviour
 {
    public Ball ball;
@@ -72,7 +70,6 @@ public class GameManager : MonoBehaviour
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class Paddle : MonoBehaviour
 {
    //[SerailizeField]
@@ -126,7 +123,6 @@ public class Paddle : MonoBehaviour
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class Ball : MonoBehaviour
 {
     [SerializeField]
@@ -184,8 +180,8 @@ public class Ball : MonoBehaviour
 }
 ```
 
- ## Output:
- <img width="758" alt="A" src="https://github.com/MEENA155/PingPongGame/assets/94677128/109da2a3-2c3f-4db2-8089-31c2a45e6268">
+## Output:
+<img width="758" alt="A" src="https://github.com/MEENA155/PingPongGame/assets/94677128/109da2a3-2c3f-4db2-8089-31c2a45e6268">
 
- ## Result:
+## Result:
 Thus, a ping pong game was developed using C# program in unity .
